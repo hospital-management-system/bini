@@ -3,41 +3,82 @@
 <head>
 <title>DOCTOR HOME PAGE</title>
 <style>
-p{
+body {
+  background-image: url("../action-character-doctor-cute_105783-33.jpg");
+  background-repeat: repeat;
+}
+<body>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+
+<h2>CSS Buttons</h2>
+
+<button>Back to Login</button>
+<a href="#" class="button">hmsHome</a>
+<button class="button">Search</button>
+<input type="button" class="button" value="Profile">
+
+
+<!--p{
 color: orange;
 
-
-}
+}-->
 </style>
 </head>
 <body>
 <h1>Welcome To Doctors Page </h1>
 <p> this is the doctors home page <br>the user is only doctor<br> in this page he can do
  many things like give appointment for patient order
- medicine and other relative things.</p>
- <a href="https://www.w3schools.com/html/html_basic.asp">linkw3</a>
+ medicine ,search patient record and update them and other relative things.</p>
+ <a href="localhost">back</a>
  <br>
  <h2>Patient Records</h2>
 
-<form action="/action_page.html">
+<!--<form action="/action_page.html-->
   First name:<br>
   <input type="text" name="firstname" value=" ">
   <br>
   Last name:<br>
   <input type="text" name="lastname" value="">
   <br><br>
+ 
+  
 </form> 
 <form>
   <input type="radio" name="gender" value="male" checked> Male<br>
   <input type="radio" name="gender" value="female"> Female<br>
   <input type="radio" name="gender" value="other"> Other<br>
+</form>
+<form>
+
+ Age:</br>
+  <input type="int" name="age" value="">
+  </br>
+  
+  Disease Type:</br>
+  <input type="text" name="Disease type" value=""></br>
+  Recomended medicine:</br>
+  <input type="text" name="recomendend medice" value=""></br>
    <input type="submit" value="Submit">
 </form>
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
-</body>
-</html>
+
+
+<p>If you click the "Submit" button, the patient record will be sent to data base.</p>
  <br/>
  <button>Download</button>
  </body>
